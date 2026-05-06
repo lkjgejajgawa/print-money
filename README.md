@@ -5,7 +5,7 @@ CROSS-CHAIN LIQUIDITY PROTOCOL BUILT ON SUBSTRATE (Formerly HydraDX)
 ## Contributions & Code of Conduct
 
 Please follow the contributions guidelines as outlined in [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md).
-We are welcoming and friendly community please follow our [Code of Conduct](docs/CODE_OF_CONDUCT.md).
+We are a welcoming and friendly community please follow our [Code of Conduct](docs/CODE_OF_CONDUCT.md).
 
 ## Local Development
 
