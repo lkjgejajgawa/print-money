@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  node:
+    image: galacticcouncil/hydra-dx:12
+    volumes:
+      - data:/hydra/.local/share
+    networks:
+      - default
+    logging:
+      driver: json-file
+networks:
+  default:
+    driver: overlay
+volumes:
+  data:
+    driver: local

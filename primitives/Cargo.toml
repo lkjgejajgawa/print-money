@@ -1,0 +1,32 @@
+[package]
+name = "primitives"
+version = "6.3.0"
+authors = ["GalacticCouncil"]
+edition = "2021"
+repository = "https://github.com/galacticcouncil/HydraDX-node"
+
+[dependencies]
+codec = { workspace = true }
+scale-info = { workspace = true }
+serde = { workspace = true, optional = true }
+hex-literal = { workspace = true }
+static_assertions = { workspace = true }
+
+# Substrate dependencies
+frame-support = { workspace = true }
+sp-core = { workspace = true }
+sp-std = { workspace = true }
+
+# Polkadot dependencies
+polkadot-primitives = { workspace = true }
+
+[features]
+default = ["std"]
+std = [
+    "serde",
+    "codec/std",
+    "scale-info/std",
+    "frame-support/std",
+    "polkadot-primitives/std",
+    "sp-core/std",
+]
