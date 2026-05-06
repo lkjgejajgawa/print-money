@@ -29,7 +29,7 @@ env:
 
 jobs:
   build:
-    runs-on: lark
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -70,7 +70,7 @@ jobs:
           path: target/release/hydradx
 
   benchmark-check:
-    runs-on: toad
+    runs-on: ubuntu-latest
     concurrency: benchmark-execution
     needs: build
     permissions:
